@@ -1,17 +1,28 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/classify/classify",
+    "pages/bookshelf/bookshelf",
+    "pages/mine/mine",
+    "pages/borrowed/borrowed",
+    "pages/collection/collection",
+    "pages/news/news",
+    "pages/lose/lose",
+    "pages/settings/settings",
+    "pages/help/help",
+    "pages/bind/bind",
+    "pages/bookDetail/bookDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "乐享智能借书柜",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#7A7E83",
-    "selectedColor": "#007de7",
+    "selectedColor": "#00A37C",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [
@@ -19,16 +30,22 @@
         "pagePath": "pages/index/index",
         "iconPath": "",
         "selectedIconPath": "",
-        "text": "投放"
+        "text": "首页"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/classify/classify",
         "iconPath": "",
         "selectedIconPath": "",
-        "text": "指南"
+        "text": "分类"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/bookshelf/bookshelf",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "借书架"
+      },
+      {
+        "pagePath": "pages/mine/mine",
         "iconPath": "",
         "selectedIconPath": "",
         "text": "我的"
