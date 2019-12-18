@@ -5,14 +5,33 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    background: [{
+        url: '/images/banner.jpg'
+      },
+      {
+        url: '/images/banner.jpg'
+      },
+      {
+        url: '/images/banner.jpg'
+      }
+    ],
+    autoplay: true,
+    currentSwiper: 0,
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
+    this.setData({
+      background: this.data.background,
+    })
+  },
 
+  swiperChange: function(e) {
+    this.setData({
+      currentSwiper: e.detail.current
+    })
   },
 
   /**
@@ -61,6 +80,9 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function() {
-
+    return {
+      title: '智能借书柜',
+      path: '/pages/index/index'
+    }
   }
 })

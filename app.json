@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/classify/classify",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/classify/classify",
     "pages/bookshelf/bookshelf",
     "pages/mine/mine",
     "pages/borrowed/borrowed",
@@ -28,26 +28,26 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "",
-        "selectedIconPath": "",
+        "iconPath": "/images/timecode.jpg",
+        "selectedIconPath": "/images/timecode.jpg",
         "text": "首页"
       },
       {
         "pagePath": "pages/classify/classify",
-        "iconPath": "",
-        "selectedIconPath": "",
+        "iconPath": "/images/timecode.jpg",
+        "selectedIconPath": "/images/timecode.jpg",
         "text": "分类"
       },
       {
         "pagePath": "pages/bookshelf/bookshelf",
-        "iconPath": "",
-        "selectedIconPath": "",
+        "iconPath": "/images/timecode.jpg",
+        "selectedIconPath": "/images/timecode.jpg",
         "text": "借书架"
       },
       {
         "pagePath": "pages/mine/mine",
-        "iconPath": "",
-        "selectedIconPath": "",
+        "iconPath": "/images/timecode.jpg",
+        "selectedIconPath": "/images/timecode.jpg",
         "text": "我的"
       }
     ]

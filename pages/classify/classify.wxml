@@ -1,2 +1,18 @@
 <!--pages/classify/classify.wxml-->
-<text>pages/classify/classify.wxml</text>
+<view>
+  <input class="search" type="text" placeholder="书名/作者/出版社/ISBN编号" placeholder-style="color:#95989f;"></input>
+  <view class="classifyBox">
+    <ul class="classify">
+      <li class="active">文学</li>
+      <li>少儿</li>
+      <li>小说</li>
+      <li>心理学</li>
+      <li>历史</li>
+      <li>哲学与宗教</li>
+      <li>外语</li>
+    </ul>
+    <view class="addClass">
+      +
+    </view>
+  </view>
+</view>

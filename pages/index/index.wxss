@@ -8,3 +8,44 @@
   margin: 20rpx auto;
   text-align: center;
 }
+
+.swiperBox {
+  height: auto;
+  padding: 0 20rpx;
+  overflow: hidden;
+  position: relative;
+}
+
+.swiperImage {
+  width: 100%;
+  height: 100%;
+}
+
+.dots {
+  width: 210rpx;
+  height: 20rpx;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20rpx;
+}
+
+/*未选中时的小圆点样式 */
+
+.dot {
+  width: 70rpx;
+  height: 10rpx;
+  border-radius: 14rpx;
+  margin-right: 26rpx;
+  background-color: #b3b3b3;
+}
+
+/*选中以后的小圆点样式  */
+
+.active {
+  width: 70rpx;
+  height: 10rpx;
+  background-color: #fff;
+}
