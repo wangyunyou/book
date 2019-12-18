@@ -1,14 +1,5 @@
 /**index.wxss**/
 
-.search {
-  width: 90%;
-  height: 80rpx;
-  background: #f5f5f5;
-  border-radius: 40rpx;
-  margin: 20rpx auto;
-  text-align: center;
-}
-
 .swiperBox {
   height: auto;
   padding: 0 20rpx;

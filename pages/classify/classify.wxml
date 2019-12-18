@@ -15,4 +15,41 @@
       +
     </view>
   </view>
+  <view class="bookBox">
+    <view class="bookThumbnailBlank start">
+      <view class="bookThumbnail">
+        <image class="bookImg" src="/images/banner.jpg"></image>
+        <view class="bookName">深情史深情史深情史深情史深情史</view>
+        <view class="bookAuthor">刘丽朵[著]</view>
+      </view>
+    </view>
+    <view class="bookThumbnailBlank center">
+      <view class="bookThumbnail">
+        <image class="bookImg" src="/images/banner.jpg"></image>
+        <view class="bookName">深情史深情史深情史深情史深情史</view>
+        <view class="bookAuthor">刘丽朵[著]</view>
+      </view>
+    </view>
+    <view class="bookThumbnailBlank end">
+      <view class="bookThumbnail">
+        <image class="bookImg" src="/images/banner.jpg"></image>
+        <view class="bookName">深情史深情史深情史深情史深情史</view>
+        <view class="bookAuthor">刘丽朵[著]</view>
+      </view>
+    </view>
+    <view class="bookThumbnailBlank start">
+      <view class="bookThumbnail">
+        <image class="bookImg" src="/images/banner.jpg"></image>
+        <view class="bookName">深情史深情史深情史深情史深情史</view>
+        <view class="bookAuthor">刘丽朵[著]</view>
+      </view>
+    </view>
+    <view class="bookThumbnailBlank center">
+      <view class="bookThumbnail">
+        <image class="bookImg" src="/images/banner.jpg"></image>
+        <view class="bookName">深情史深情史深情史深情史深情史</view>
+        <view class="bookAuthor">刘丽朵[著]</view>
+      </view>
+    </view>
+  </view>
 </view>
