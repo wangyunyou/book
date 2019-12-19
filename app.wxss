@@ -26,6 +26,15 @@
   color: #333;
 }
 
+.title::before {
+  content: " ";
+  width: 5rpx;
+  height: 30rpx;
+  margin-right: 16rpx;
+  display: inline-block;
+  background: #36b5eb;
+}
+
 .titleTip {
   font-size: 28rpx;
   color: #777;

@@ -6,9 +6,9 @@ Page({
    */
   data: {
     isEdit: true,
-    checked: true,
     bookNum: 1,
-    result: ['a', 'b']
+    checked: ['a', 'b'],
+    allChecked: false,
   },
 
   /**
@@ -24,20 +24,29 @@ Page({
     })
   },
 
-  onChange(event) {
+  onChange(e) {
     this.setData({
-      result: event.detail
+      checked: e.detail
     });
   },
 
-  allChecked(event) {
+  allChecked(e) {
     /* 全选功能 */
-    this.result = this.materailList.map(item => {
-      return item.id.toString()
-    })
-    this.checkedAll = event.$wx.detail;
-    if (this.checkedAll === false)
-      this.result = []
+    this.setData({
+      allChecked: e.detail
+    });
+
+    console.log(e)
+    console.log(this.data.checked)
+
+
+    // this.result = this.materailList.map(item => {
+    //   return item.id.toString()
+    // })
+
+    // this.checkedAll = event.$wx.detail;
+    // if (this.checkedAll === false)
+    //   this.result = []
   },
 
   /**

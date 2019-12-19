@@ -5,7 +5,7 @@
   height: 80rpx;
   line-height: 80rpx;
   background: #eff2f7;
-  color: #00a37c;
+  color: #47d9c2;
   padding: 0 20rpx;
   box-sizing: border-box;
   text-align: right;
@@ -60,8 +60,8 @@
 
 .bookDetailBox view.name {
   color: #333;
-  font-size: 28rpx;
-  line-height: 60rpx;
+  font-size: 30rpx;
+  line-height: 66rpx;
 }
 
 .boxBlank {
@@ -86,7 +86,7 @@
   width: 350rpx;
   height: 120rpx;
   line-height: 120rpx;
-  background: #00a37c;
+  background: #47d9c2;
   text-align: center;
   color: #fff;
   float: right;
@@ -97,7 +97,7 @@
   width: 350rpx;
   height: 120rpx;
   line-height: 120rpx;
-  background: #ff8900;
+  background: #ff7272;
   text-align: center;
   color: #fff;
   float: right;

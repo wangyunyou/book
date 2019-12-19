@@ -2,8 +2,8 @@
 <view>
   <view class="edit" bindtap="changeEdit">{{isEdit == true ? '编辑' : '完成' }}</view>
   <view class="bigBookBox">
-    <van-checkbox-group value="{{ result }}" bind:change="onChange">
-      <van-checkbox name="a" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}">
+    <van-checkbox-group value="{{ checked }}" bind:change="onChange">
+      <van-checkbox name="a" checked-color="#42E0A6">
         <view class="thumbnail">
           <image class="bookImg" src="/images/banner.jpg"></image>
           <view class="bookDetailBox">
@@ -15,7 +15,7 @@
           </view>
         </view>
       </van-checkbox>
-      <van-checkbox name="b" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}">
+      <van-checkbox name="b" checked-color="#42E0A6">
         <view class="thumbnail">
           <image class="bookImg" src="/images/banner.jpg"></image>
           <view class="bookDetailBox">
@@ -27,7 +27,7 @@
           </view>
         </view>
       </van-checkbox>
-      <van-checkbox name="c" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}">
+      <van-checkbox name="c" disabled checked-color="#42E0A6">
         <view class="thumbnail">
           <image class="bookImg" src="/images/banner.jpg"></image>
           <view class="bookDetailBox">
@@ -39,7 +39,7 @@
           </view>
         </view>
       </van-checkbox>
-      <van-checkbox name="d" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}">
+      <van-checkbox name="d" checked-color="#42E0A6">
         <view class="thumbnail">
           <image class="bookImg" src="/images/banner.jpg"></image>
           <view class="bookDetailBox">
@@ -51,7 +51,7 @@
           </view>
         </view>
       </van-checkbox>
-      <van-checkbox name="e" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}">
+      <van-checkbox name="e" checked-color="#42E0A6">
         <view class="thumbnail">
           <image class="bookImg" src="/images/banner.jpg"></image>
           <view class="bookDetailBox">
@@ -63,7 +63,7 @@
           </view>
         </view>
       </van-checkbox>
-      <van-checkbox name="f" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}">
+      <van-checkbox name="f" checked-color="#42E0A6">
         <view class="thumbnail">
           <image class="bookImg" src="/images/banner.jpg"></image>
           <view class="bookDetailBox">
@@ -80,7 +80,7 @@
     <view class="boxBlank"></view>
   </view>
   <view class="bottomBar">
-    <van-checkbox value="{{ checked }}" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}" bind:change="allChecked">
+    <van-checkbox value="{{ allChecked }}" checked-color="#42E0A6" bind:change="allChecked">
       全选 已选 {{bookNum}} 本
     </van-checkbox>
     <view class="{{isEdit == true ? 'lend' : 'remove' }}">{{isEdit == true ? '借阅' : '移出借书架' }}</view>

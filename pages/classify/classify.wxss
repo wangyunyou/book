@@ -39,7 +39,7 @@
   left: calc(50% - 24rpx);
   width: 48rpx;
   height: 6rpx;
-  background: #00a37c;
+  background: #47d9c2;
 }
 
 .addClass {
@@ -48,7 +48,7 @@
   line-height: 36rpx;
   font-size: 36rpx;
   border-radius: 20rpx;
-  background: #00a37c;
+  background: #47d9c2;
   color: #fff;
   text-align: center;
 }
