@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/bookshelf/bookshelf",
     "pages/index/index",
     "pages/logs/logs",
     "pages/classify/classify",
-    "pages/bookshelf/bookshelf",
     "pages/mine/mine",
     "pages/borrowed/borrowed",
     "pages/collection/collection",
@@ -55,6 +55,10 @@
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "usingComponents": {
-    "van-button": "path/weapp/dist/button/index"
+    "van-button": "path/weapp/dist/button/index",
+    "van-checkbox": "path/weapp/dist/checkbox/index",
+    "van-checkbox-group": "path/weapp/dist/checkbox-group/index",
+    "van-cell": "path/weapp/dist/cell/index",
+    "van-cell-group": "path/weapp/dist/cell-group/index"
   }
 }

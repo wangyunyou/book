@@ -1,2 +1,88 @@
 <!--pages/bookshelf/bookshelf.wxml-->
-<text>借书架</text>
+<view>
+  <view class="edit" bindtap="changeEdit">{{isEdit == true ? '编辑' : '完成' }}</view>
+  <view class="bigBookBox">
+    <van-checkbox-group value="{{ result }}" bind:change="onChange">
+      <van-checkbox name="a" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}">
+        <view class="thumbnail">
+          <image class="bookImg" src="/images/banner.jpg"></image>
+          <view class="bookDetailBox">
+            <view class="name">深情史深情史深情史深情史深情史深情史深情史</view>
+            <view class="author">刘丽朵[著]</view>
+            <view class="press">出版社：中国友谊出版社</view>
+            <view class="ISBN">ISBN：9887505744813</view>
+            <view class="stock">库存不足</view>
+          </view>
+        </view>
+      </van-checkbox>
+      <van-checkbox name="b" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}">
+        <view class="thumbnail">
+          <image class="bookImg" src="/images/banner.jpg"></image>
+          <view class="bookDetailBox">
+            <view class="name">深情史深情史深情史深情史深情史深情史深情史</view>
+            <view class="author">刘丽朵[著]</view>
+            <view class="press">出版社：中国友谊出版社</view>
+            <view class="ISBN">ISBN：9887505744813</view>
+            <view class="stock">库存不足</view>
+          </view>
+        </view>
+      </van-checkbox>
+      <van-checkbox name="c" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}">
+        <view class="thumbnail">
+          <image class="bookImg" src="/images/banner.jpg"></image>
+          <view class="bookDetailBox">
+            <view class="name">深情史深情史深情史深情史深情史深情史深情史</view>
+            <view class="author">刘丽朵[著]</view>
+            <view class="press">出版社：中国友谊出版社</view>
+            <view class="ISBN">ISBN：9887505744813</view>
+            <view class="stock">库存不足</view>
+          </view>
+        </view>
+      </van-checkbox>
+      <van-checkbox name="d" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}">
+        <view class="thumbnail">
+          <image class="bookImg" src="/images/banner.jpg"></image>
+          <view class="bookDetailBox">
+            <view class="name">深情史深情史深情史深情史深情史深情史深情史</view>
+            <view class="author">刘丽朵[著]</view>
+            <view class="press">出版社：中国友谊出版社</view>
+            <view class="ISBN">ISBN：9887505744813</view>
+            <view class="stock">库存不足</view>
+          </view>
+        </view>
+      </van-checkbox>
+      <van-checkbox name="e" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}">
+        <view class="thumbnail">
+          <image class="bookImg" src="/images/banner.jpg"></image>
+          <view class="bookDetailBox">
+            <view class="name">深情史深情史深情史深情史深情史深情史深情史</view>
+            <view class="author">刘丽朵[著]</view>
+            <view class="press">出版社：中国友谊出版社</view>
+            <view class="ISBN">ISBN：9887505744813</view>
+            <view class="stock">库存不足</view>
+          </view>
+        </view>
+      </van-checkbox>
+      <van-checkbox name="f" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}">
+        <view class="thumbnail">
+          <image class="bookImg" src="/images/banner.jpg"></image>
+          <view class="bookDetailBox">
+            <view class="name">深情史深情史深情史深情史深情史深情史深情史</view>
+            <view class="author">刘丽朵[著]</view>
+            <view class="press">出版社：中国友谊出版社</view>
+            <view class="ISBN">ISBN：9887505744813</view>
+            <view class="stock">库存不足</view>
+          </view>
+        </view>
+      </van-checkbox>
+    </van-checkbox-group>
+
+    <view class="boxBlank"></view>
+  </view>
+  <view class="bottomBar">
+    <van-checkbox value="{{ checked }}" checked-color="{{isEdit == true ? '#00a37c' : '#ff8900' }}" bind:change="allChecked">
+      全选 已选 {{bookNum}} 本
+    </van-checkbox>
+    <view class="{{isEdit == true ? 'lend' : 'remove' }}">{{isEdit == true ? '借阅' : '移出借书架' }}</view>
+  </view>
+</view>
