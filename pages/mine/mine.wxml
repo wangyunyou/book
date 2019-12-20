@@ -12,6 +12,27 @@
     </view>
   </view>
 
+  <view class="itemBar">
+    <view class="item">
+      <image class="itemImg" src="/images/borrow.png"></image>
+      当前借阅
+    </view>
+    <view class="item">
+      <image class="itemImg" src="/images/Collection.png"></image>
+      我的收藏
+    </view>
+    <view class="item">
+      <image class="itemImg" src="/images/news.png"></image>
+      我的消息
+    </view>
+    <view class="item">
+      <image class="itemImg" src="/images/overtime.png"></image>
+      逾期|丢失
+    </view>
+  </view>
+
+  <view class="bgLine"></view>
+
   <!-- <view class="container">
     <view class="userinfo">
       <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>

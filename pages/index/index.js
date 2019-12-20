@@ -6,17 +6,27 @@ Page({
    */
   data: {
     background: [{
-        url: '/images/banner.jpg'
+        url: '/images/banner_1.png'
       },
       {
-        url: '/images/banner.jpg'
+        url: '/images/banner_1.png'
       },
       {
-        url: '/images/banner.jpg'
+        url: '/images/banner_1.png'
       }
     ],
     autoplay: true,
     currentSwiper: 0,
+    imgheight: ""
+  },
+
+  imageLoad: function(e) {
+    var that = this
+    wx.createSelectorQuery().selectAll('.swiperImage').boundingClientRect(function(rect) {
+      that.setData({
+        imgheight: rect[0].height
+      })
+    }).exec()
   },
 
   /**
