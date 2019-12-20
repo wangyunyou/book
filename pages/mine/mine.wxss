@@ -1,22 +1,5 @@
 /* pages/mine/mine.wxss */
 
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
 .mineBg {
   width: 100%;
   height: 230rpx;
@@ -46,7 +29,7 @@
   position: absolute;
   right: 30rpx;
   font-size: 36rpx;
-  color: #aaa;
+  color: #bbb;
 }
 
 .myPhotoBox {
@@ -119,5 +102,5 @@
 
 .menuItems i.fa.fa-angle-right {
   font-size: 36rpx;
-  color: #aaa;
+  color: #bbb;
 }
