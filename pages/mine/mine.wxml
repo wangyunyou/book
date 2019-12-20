@@ -1,8 +1,18 @@
 <!--pages/mine/mine.wxml-->
 <view>
-  <view class="mineBg"></view>
+  <view class="mineBg">
+    <view class="mineBox">
+      <view class="myPhotoBox">
+        <open-data type="userAvatarUrl" class="user-img"></open-data>
+      </view>
+      <view>
+        <open-data type="userNickName" class=""></open-data>
+        <view class="myTip">暂未绑定借阅卡</view>
+      </view>
+    </view>
+  </view>
 
-  <view class="container">
+  <!-- <view class="container">
     <view class="userinfo">
       <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
       <block wx:else>
@@ -13,6 +23,6 @@
     <view class="usermotto">
       <text class="user-motto">{{motto}}</text>
     </view>
-  </view>
+  </view> -->
 
 </view>
