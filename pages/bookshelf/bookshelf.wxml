@@ -5,7 +5,7 @@
     <van-checkbox-group value="{{ checked }}" bind:change="onChange">
       <van-checkbox name="a" checked-color="#42E0A6">
         <view class="thumbnail">
-          <image class="bookImg" src="/images/banner.jpg"></image>
+          <image class="bookImg" src="/images/bookBg.png"></image>
           <view class="bookDetailBox">
             <view class="name">深情史深情史深情史深情史深情史深情史深情史</view>
             <view class="author">刘丽朵[著]</view>
@@ -17,7 +17,7 @@
       </van-checkbox>
       <van-checkbox name="b" checked-color="#42E0A6">
         <view class="thumbnail">
-          <image class="bookImg" src="/images/banner.jpg"></image>
+          <image class="bookImg" src="/images/bookBg.png"></image>
           <view class="bookDetailBox">
             <view class="name">深情史深情史深情史深情史深情史深情史深情史</view>
             <view class="author">刘丽朵[著]</view>
@@ -29,7 +29,7 @@
       </van-checkbox>
       <van-checkbox name="c" disabled checked-color="#42E0A6">
         <view class="thumbnail">
-          <image class="bookImg" src="/images/banner.jpg"></image>
+          <image class="bookImg" src="/images/bookBg.png"></image>
           <view class="bookDetailBox">
             <view class="name">深情史深情史深情史深情史深情史深情史深情史</view>
             <view class="author">刘丽朵[著]</view>
@@ -41,7 +41,7 @@
       </van-checkbox>
       <van-checkbox name="d" checked-color="#42E0A6">
         <view class="thumbnail">
-          <image class="bookImg" src="/images/banner.jpg"></image>
+          <image class="bookImg" src="/images/bookBg.png"></image>
           <view class="bookDetailBox">
             <view class="name">深情史深情史深情史深情史深情史深情史深情史</view>
             <view class="author">刘丽朵[著]</view>
@@ -53,7 +53,7 @@
       </van-checkbox>
       <van-checkbox name="e" checked-color="#42E0A6">
         <view class="thumbnail">
-          <image class="bookImg" src="/images/banner.jpg"></image>
+          <image class="bookImg" src="/images/bookBg.png"></image>
           <view class="bookDetailBox">
             <view class="name">深情史深情史深情史深情史深情史深情史深情史</view>
             <view class="author">刘丽朵[著]</view>
@@ -65,7 +65,7 @@
       </van-checkbox>
       <van-checkbox name="f" checked-color="#42E0A6">
         <view class="thumbnail">
-          <image class="bookImg" src="/images/banner.jpg"></image>
+          <image class="bookImg" src="/images/bookBg.png"></image>
           <view class="bookDetailBox">
             <view class="name">深情史深情史深情史深情史深情史深情史深情史</view>
             <view class="author">刘丽朵[著]</view>

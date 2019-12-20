@@ -1,4 +1,5 @@
 /**app.wxss**/
+@import "/path/stylesheet.wxss";
 
 .search {
   width: 90%;
@@ -107,4 +108,8 @@ page::before {
   height: 2rpx;
   background-color: #f3f3f3;
   z-index: 9999;
+}
+
+.hover {
+  background: #fafafa;
 }

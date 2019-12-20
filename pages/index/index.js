@@ -22,9 +22,9 @@ Page({
 
   imageLoad: function(e) {
     var that = this
-    wx.createSelectorQuery().selectAll('.swiperImage').boundingClientRect(function(rect) {
+    wx.createSelectorQuery().selectAll('.swiperImage').boundingClientRect(function(res) {
       that.setData({
-        imgheight: rect[0].height
+        imgheight: res[0].height
       })
     }).exec()
   },

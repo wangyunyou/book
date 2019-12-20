@@ -17,7 +17,8 @@
   width: 210rpx;
   height: 20rpx;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -27,9 +28,9 @@
 /*未选中时的小圆点样式 */
 
 .dot {
-  width: 70rpx;
-  height: 10rpx;
-  border-radius: 14rpx;
+  width: 28rpx;
+  height: 6rpx;
+  border-radius: 2rpx;
   margin-right: 26rpx;
   background-color: #b3b3b3;
 }
@@ -37,7 +38,7 @@
 /*选中以后的小圆点样式  */
 
 .active {
-  width: 70rpx;
-  height: 10rpx;
+  width: 28rpx;
+  height: 6rpx;
   background-color: #fff;
 }

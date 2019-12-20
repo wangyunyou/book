@@ -9,29 +9,45 @@
         <open-data type="userNickName" class=""></open-data>
         <view class="myTip">暂未绑定借阅卡</view>
       </view>
+      <i class="fa fa-angle-right rightArrow" aria-hidden="true"></i>
     </view>
   </view>
 
   <view class="itemBar">
-    <view class="item">
+    <view class="item" hover-class="hover">
       <image class="itemImg" src="/images/borrow.png"></image>
       当前借阅
     </view>
-    <view class="item">
+    <view class="item" hover-class="hover">
       <image class="itemImg" src="/images/Collection.png"></image>
       我的收藏
     </view>
-    <view class="item">
+    <view class="item" hover-class="hover">
       <image class="itemImg" src="/images/news.png"></image>
       我的消息
     </view>
-    <view class="item">
+    <view class="item" hover-class="hover">
       <image class="itemImg" src="/images/overtime.png"></image>
       逾期|丢失
     </view>
   </view>
 
   <view class="bgLine"></view>
+
+  <view>
+    <view class="menuItems" hover-class="hover">
+      <view>
+        <i class="fa fa-cogs" aria-hidden="true"></i> 设置
+      </view>
+      <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </view>
+    <view class="menuItems" hover-class="hover">
+      <view>
+        <i class="fa fa-commenting" aria-hidden="true"></i> 帮助
+      </view>
+      <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </view>
+  </view>
 
   <!-- <view class="container">
     <view class="userinfo">
